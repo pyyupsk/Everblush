@@ -1,0 +1,10 @@
+{
+  "name": "Everblush",
+  "scripts": {
+    "format:fix": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}

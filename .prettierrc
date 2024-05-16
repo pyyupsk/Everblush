@@ -1,0 +1,8 @@
+{
+  "overrides": [
+    {
+      "files": ["userstyles/**/*.css", "template/**/*.css"],
+      "options": { "parser": "less" }
+    }
+  ]
+}

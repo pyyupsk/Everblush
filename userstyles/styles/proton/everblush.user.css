@@ -1,0 +1,262 @@
+/* ==UserStyle==
+@name Proton - Everblush
+@namespace github.com/Zylo23/Everblush/userstyles/styles/proton
+@homepageURL https://github.com/Zylo23/Everblush/tree/main/userstyles/styles/proton
+@version 0.0.1
+@updateURL https://github.com/Zylo23/Everblush/raw/main/userstyles/styles/proton/everblush.user.css
+@supportURL https://github.com/Zylo23/Everblush/issues?q=is%3Aopen+is%3Aissue+label%3Aproton
+@description A dark, vibrant, and beautiful color scheme for Proton
+@author Zylo23
+@license MIT
+
+@preprocessor less
+@var select accentColor "Accent" ["rosewater:Rosewater", "flamingo:Flamingo", "pink:Pink", "mauve:Mauve*", "red:Red", "maroon:Maroon", "peach:Peach", "yellow:Yellow", "green:Green", "teal:Teal", "blue:Blue", "sapphire:Sapphire", "sky:Sky", "lavender:Lavender", "subtext0:Gray"]
+==/UserStyle== */
+@-moz-document regexp("https://(account|mail|drive|calendar).proton.me/.*$")
+{
+  @media (prefers-color-scheme: light) {
+    :root {
+      #everblush(@accentColor);
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      #everblush(@accentColor);
+    }
+  }
+
+  #everblush(@accent) {
+    @rosewater: @everblush[@rosewater];
+    @flamingo: @everblush[@flamingo];
+    @pink: @everblush[@pink];
+    @mauve: @everblush[@mauve];
+    @red: @everblush[@red];
+    @maroon: @everblush[@maroon];
+    @peach: @everblush[@peach];
+    @yellow: @everblush[@yellow];
+    @green: @everblush[@green];
+    @teal: @everblush[@teal];
+    @sky: @everblush[@sky];
+    @sapphire: @everblush[@sapphire];
+    @blue: @everblush[@blue];
+    @lavender: @everblush[@lavender];
+    @text: @everblush[@text];
+    @subtext1: @everblush[@subtext1];
+    @subtext0: @everblush[@subtext0];
+    @overlay2: @everblush[@overlay2];
+    @overlay1: @everblush[@overlay1];
+    @overlay0: @everblush[@overlay0];
+    @surface2: @everblush[@surface2];
+    @surface1: @everblush[@surface1];
+    @surface0: @everblush[@surface0];
+    @base: @everblush[@base];
+    @mantle: @everblush[@mantle];
+    @crust: @everblush[@crust];
+    @accent-color: @everblush[@@accent];
+
+    color-scheme: dark;
+
+    ::selection {
+      background-color: fade(@accent-color, 30%);
+    }
+
+    input,
+    textarea {
+      &::placeholder {
+        color: @subtext0 !important;
+      }
+    }
+
+    svg.logo {
+      @accentH: hue(@accent-color);
+      @protonH: hue(#6d4aff);
+
+      .replaceColor(@org, @property) {
+        &[@{property}="@{org}"] {
+          @hDiff: @protonH - hue(@org);
+          @{property}: hsl(
+            @accentH - @hDiff,
+            saturation(@org) - 30%,
+            lightness(@org)
+          );
+        }
+      }
+
+      /* prettier-ignore */
+      > path {
+        .replaceColor(#B8D7FF, fill);
+        .replaceColor(#8F69FF, fill);
+      }
+
+      /* prettier-ignore */
+      > defs stop {
+        .replaceColor(#E3D9FF, stop-color);
+        .replaceColor(#7341FF, stop-color);
+        .replaceColor(#6D4AFF, stop-color);
+        .replaceColor(#AA8EFF, stop-color);
+        .replaceColor(#06B8FF, stop-color);
+        .replaceColor(#BFE8FF, stop-color);
+        .replaceColor(#BFABFF, stop-color);
+        .replaceColor(#FF50C3, stop-color);
+        .replaceColor(#B487FF, stop-color);
+        .replaceColor(#FFC8FF, stop-color);
+        .replaceColor(#8EFFEE, stop-color);
+        .replaceColor(#C9C7FF, stop-color);
+        .replaceColor(#00F0C3, stop-color);
+        .replaceColor(#FFD580, stop-color);
+        .replaceColor(#F6C592, stop-color);
+        .replaceColor(#EBB6A2, stop-color);
+        .replaceColor(#DFA5AF, stop-color);
+        .replaceColor(#D397BE, stop-color);
+        .replaceColor(#C486CB, stop-color);
+        .replaceColor(#B578D9, stop-color);
+        .replaceColor(#A166E5, stop-color);
+        .replaceColor(#8B57F2, stop-color);
+        .replaceColor(#704CFF, stop-color);
+        .replaceColor(#B39FFB, stop-color);
+        .replaceColor(#FFE8DB, stop-color);
+      }
+    }
+
+    &,
+    .ui-prominent,
+    .ui-standard {
+      #lightenOrDarken(@color, @value) {
+        @result: darken(@color, @value);
+      }
+
+      --primary: @accent-color;
+      --primary-contrast: @mantle;
+      --signal-danger-minor-2: #lightenOrDarken(@maroon, 40%) [ @result];
+      --signal-danger-minor-1: #lightenOrDarken(@maroon, 30%) [ @result];
+      --signal-danger: @maroon;
+      --signal-danger-major-1: saturate(@maroon, 40%);
+      --signal-danger-major-2: saturate(@maroon, 30%);
+      --signal-danger-major-3: saturate(@maroon, 20%);
+      --signal-danger-contrast: @mantle;
+      --signal-warning-minor-2: #lightenOrDarken(@peach, 40%) [ @result];
+      --signal-warning-minor-1: #lightenOrDarken(@peach, 30%) [ @result];
+      --signal-warning: @peach;
+      --signal-warning-major-1: saturate(@peach, 40%);
+      --signal-warning-major-2: saturate(@peach, 30%);
+      --signal-warning-major-3: saturate(@peach, 20%);
+      --signal-warning-contrast: @mantle;
+      --signal-success-minor-2: #lightenOrDarken(@green, 40%) [ @result];
+      --signal-success-minor-1: #lightenOrDarken(@green, 30%) [ @result];
+      --signal-success: @green;
+      --signal-success-major-1: saturate(@green, 40%);
+      --signal-success-major-2: saturate(@green, 30%);
+      --signal-success-major-3: saturate(@green, 20%);
+      --signal-success-contrast: @mantle;
+      --signal-info-minor-2: #lightenOrDarken(@blue, 40%) [ @result];
+      --signal-info-minor-1: #lightenOrDarken(@blue, 30%) [ @result];
+      --signal-info: @blue;
+      --signal-info-major-1: saturate(@blue, 40%);
+      --signal-info-major-2: saturate(@blue, 30%);
+      --signal-info-major-3: saturate(@blue, 20%);
+      --signal-info-contrast: @mantle;
+      --interaction-norm-minor-2: #lightenOrDarken(@accent-color, 40%) [
+        @result];
+      --interaction-norm-minor-1: #lightenOrDarken(@accent-color, 30%) [
+        @result];
+      --interaction-norm: @accent-color;
+      --interaction-norm-major-1: saturate(@accent-color, 30%);
+      --interaction-norm-major-2: saturate(@accent-color, 20%);
+      --interaction-norm-major-3: saturate(@accent-color, 10%);
+      --interaction-norm-contrast: @mantle;
+      --interaction-weak-minor-2: darken(@surface0, 50%);
+      --interaction-weak-minor-1: darken(@surface0, 30%);
+      --interaction-weak: @surface0;
+      --interaction-weak-major-1: lighten(@surface0, 10%);
+      --interaction-weak-major-2: lighten(@surface0, 20%);
+      --interaction-weak-major-3: lighten(@surface0, 30%);
+      --interaction-weak-contrast: @text;
+      --text-norm: @text;
+      --text-weak: @subtext0;
+      --text-hint: @subtext1;
+      --text-disabled: @overlay1;
+      --text-invert: @crust;
+      --field-norm: @overlay2;
+      --field-hover: @overlay1;
+      --field-disabled: @overlay0;
+      --field-focus: @accent-color;
+      --field-highlight: fadeout(@accent-color, 30%);
+      --focus-outline: @accent-color;
+      --focus-ring: fadeout(@accent-color, 60%);
+      --border-norm: @overlay0;
+      --border-weak: @overlay1;
+      --background-norm: @base;
+      --background-weak: @mantle;
+      --background-strong: @crust;
+      --background-invert: @text;
+      --interaction-default: transparent;
+      --interaction-default-hover: fadeout(@overlay1, 80%);
+      --interaction-default-active: fadeout(@overlay1, 60%);
+      --shadow-norm-opacity: 0.5;
+      --shadow-lifted-opacity: 0.75;
+      --backdrop-norm: fadeout(@crust, 50%);
+      --optional-scrollbar-thumb-color: @surface0;
+      --optional-scrollbar-thumb-hover-color: @surface2;
+      --optional-link-norm: var(--interaction-norm-major-1);
+      --optional-link-hover: var(--interaction-norm-major-2);
+      --optional-link-active: var(--interaction-norm-major-3);
+      --optional-background-elevated: @surface0;
+      --optional-background-lowered: var(--background-norm);
+      --optional-email-item-unread-background-color: var(--background-weak);
+      --optional-email-item-read-background-color: var(--background-norm);
+      --optional-email-item-read-text-color: var(--text-weak);
+      --optional-mini-calendar-today-color: @text;
+      --optional-logo-text-proton-color: @text;
+      --optional-logo-text-product-color: @text;
+      --favorite-icon-color: @peach;
+    }
+
+    .ui-prominent {
+      --background-norm: @mantle;
+      --background-weak: @base;
+      --background-strong: @crust;
+    }
+
+    .button-promotion {
+      --upgrade-color-stop-1: @red;
+      --upgrade-color-stop-2: @blue;
+    }
+
+    .item-container-row:not(.item-is-selected):hover,
+    .item-container:not(.item-is-selected):hover {
+      box-shadow: none;
+      background-color: var(--navigation-current-item-background-color);
+      color: var(--email-item-unread-text-color);
+    }
+  }
+}
+
+@everblush: {
+  @rosewater: #f2d3d3;
+  @flamingo: #f4a2a2;
+  @pink: #d58ac5;
+  @mauve: #ac7bd9;
+  @red: #e57474;
+  @maroon: #c15d5d;
+  @peach: #d68a60;
+  @yellow: #e5c76b;
+  @green: #8ccf7e;
+  @teal: #6cbf99;
+  @sky: #78c5d6;
+  @sapphire: #5aa0d8;
+  @blue: #67b0e8;
+  @lavender: #9a81d5;
+  @text: #dadada;
+  @subtext1: #b3b9b8;
+  @subtext0: #a1a7a6;
+  @overlay2: #77868f;
+  @overlay1: #6a7d85;
+  @overlay0: #5d737b;
+  @surface2: #4d585f;
+  @surface1: #3e474e;
+  @surface0: #232a2d;
+  @base: #141b1e;
+  @mantle: #252c2b;
+  @crust: #1c2221;
+};

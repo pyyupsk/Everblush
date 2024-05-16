@@ -1,11 +1,12 @@
 <div align="center">
 <img align="center" src="https://raw.githubusercontent.com/Everblush/assets/main/logo.png" height="200px" width="200px" alt="logo"> 
-</div> 
+</div>
 
 <h1 align="center">Everblush</h1> 
-<h4 align="center"><i>A Dark, Vibrant and Beatiful colorscheme for your desktop</i></h4> 
+<h4 align="center"><i>A Dark, Vibrant and Beatiful colorscheme for your desktop</i></h4>
 
-# About 
+# About
+
 Everblush is colorscheme like the others in the programmer / ricer's community. But with beautiful syntax highlighting and colors.
 
 <!-- Rosewater: #f2d3d3
