@@ -1,10 +1,3 @@
-<div align="center">
-<img align="center" src="https://raw.githubusercontent.com/Everblush/assets/main/logo.png" height="200px" width="200px" alt="logo"> 
-</div>
-
-<h1 align="center">Everblush</h1> 
-<h4 align="center"><i>A Dark, Vibrant and Beatiful colorscheme for your desktop</i></h4>
-
 ## 🎨 Palette
 
 <details>
@@ -244,43 +237,3 @@
 <td><code>197,26,5</code></td>
 </tr>
 </table></details>
-
-## 🖌 Userstyles
-
-<details open>
-<summary>💭 Development Tools</summary>
-
-- [GitHub](userstyles/styles/github)
-
-</details>
-
-<details open>
-<summary>📖 Productivity</summary>
-
-- [Proton](userstyles/styles/proton)
-- [Stylus](userstyles/styles/stylus)
-
-</details>
-
-<details open>
-<summary>✨ Social Networking</summary>
-
-- [Instagram](userstyles/styles/instagram)
-
-</details>
-
-<details open>
-<summary>🌈 Entertainment</summary>
-
-- [YouTube](userstyles/styles/youtube)
-
-</details>
-
-<details open>
-<summary>🤖 Artificial Intelligence</summary>
-
-- [ChatGPT](userstyles/styles/chatgpt)
-
-</details>
-
----
