@@ -2,7 +2,7 @@
 @name Chatgpt - Everblush
 @namespace github.com/Zylo23/Everblush/userstyles/styles/chatgpt
 @homepageURL https://github.com/Zylo23/Everblush/tree/main/userstyles/styles/chatgpt
-@version 0.0.1
+@version 0.0.2
 @updateURL https://github.com/Zylo23/Everblush/raw/main/userstyles/styles/chatgpt/everblush.user.css
 @supportURL https://github.com/Zylo23/Everblush/issues?q=is%3Aopen+is%3Aissue+label%3Achatgpt
 @description A dark, vibrant, and beautiful color scheme for Chatgpt
@@ -1176,13 +1176,13 @@
   @text: #dadada;
   @subtext1: #b3b9b8;
   @subtext0: #a1a7a6;
-  @overlay2: #77868f;
-  @overlay1: #6a7d85;
-  @overlay0: #5d737b;
-  @surface2: #4d585f;
-  @surface1: #3e474e;
+  @overlay2: #5c6268;
+  @overlay1: #4b5157;
+  @overlay0: #3a4045;
+  @surface2: #31363a;
+  @surface1: #292e32;
   @surface0: #232a2d;
   @base: #141b1e;
-  @mantle: #252c2b;
-  @crust: #1c2221;
+  @mantle: #0f1518;
+  @crust: #0a0f11;
 };
