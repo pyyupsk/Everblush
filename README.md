@@ -39,9 +39,38 @@ Crust: #1c2221 -->
 ## 🖌 Userstyles
 
 <details open>
+<summary>💭 Development Tools</summary>
+
+- [GitHub](userstyles/styles/github)
+
+</details>
+
+<details open>
+<summary>📖 Productivity</summary>
+
+- [Proton](userstyles/styles/proton)
+- [Stylus](userstyles/styles/stylus)
+
+</details>
+
+<details open>
+<summary>✨ Social Networking</summary>
+
+- [Instagram](userstyles/styles/instagram)
+
+</details>
+
+<details open>
 <summary>🌈 Entertainment</summary>
 
 - [YouTube](userstyles/styles/youtube)
+
+</details>
+
+<details open>
+<summary>🤖 Artificial Intelligence</summary>
+
+- [ChatGPT](userstyles/styles/chatgpt)
 
 </details>
 
