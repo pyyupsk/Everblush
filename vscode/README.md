@@ -52,4 +52,4 @@ Following the steps above will install the theme.
 
 ## Credits
 
-- [Everblush](https://github.com/Everblush) - A Dark and Beautiful and Vibrant Colorscheme (for Colorschemer)
+-   [Everblush](https://github.com/Everblush) - A Dark and Beautiful and Vibrant Colorscheme (for Colorschemer)

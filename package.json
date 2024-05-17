@@ -1,19 +1,19 @@
 {
-  "name": "everblush",
-  "scripts": {
-    "format:fix": "prettier --write .",
-    "format:check": "prettier --check .",
-    "create-palette": "tsx scripts/create-palette.ts"
-  },
-  "devDependencies": {
-    "@types/color-convert": "^2.0.3",
-    "@types/node": "^20.12.12",
-    "prettier": "^3.2.5",
-    "tsx": "^4.10.3",
-    "typescript": "^5.4.5"
-  },
-  "dependencies": {
-    "canvas": "^2.11.2",
-    "color-convert": "^2.0.1"
-  }
+	"name": "everblush",
+	"scripts": {
+		"format:fix": "prettier --write .",
+		"format:check": "prettier --check .",
+		"create-palette": "tsx scripts/create-palette.ts"
+	},
+	"devDependencies": {
+		"@types/color-convert": "^2.0.3",
+		"@types/node": "^20.12.12",
+		"prettier": "^3.2.5",
+		"tsx": "^4.10.3",
+		"typescript": "^5.4.5"
+	},
+	"dependencies": {
+		"canvas": "^2.11.2",
+		"color-convert": "^2.0.1"
+	}
 }

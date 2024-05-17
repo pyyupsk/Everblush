@@ -252,42 +252,42 @@ Everblush is available for various apps and in various formats. Here are some of
 <details open>
 <summary>💭 Development Tools</summary>
 
-- [GitHub](userstyles/styles/github)
-- [Visual Studio Code](vscode)
+-   [GitHub](userstyles/styles/github)
+-   [Visual Studio Code](vscode)
 
 </details>
 
 <details open>
 <summary>📖 Productivity</summary>
 
-- [Proton](userstyles/styles/proton)
-- [Stylus](userstyles/styles/stylus)
+-   [Proton](userstyles/styles/proton)
+-   [Stylus](userstyles/styles/stylus)
 
 </details>
 
 <details open>
 <summary>✨ Social Networking</summary>
 
-- [Instagram](userstyles/styles/instagram)
+-   [Instagram](userstyles/styles/instagram)
 
 </details>
 
 <details open>
 <summary>🌈 Entertainment</summary>
 
-- [YouTube](userstyles/styles/youtube)
+-   [YouTube](userstyles/styles/youtube)
 
 </details>
 
 <details open>
 <summary>🤖 Artificial Intelligence</summary>
 
-- [ChatGPT](userstyles/styles/chatgpt)
+-   [ChatGPT](userstyles/styles/chatgpt)
 
 </details>
 
 ## ❤️ Credit
 
-- [Everblush](https://github.com/Everblush) - A Dark and Beautiful and Vibrant Colorscheme (for Colorschemer)
+-   [Everblush](https://github.com/Everblush) - A Dark and Beautiful and Vibrant Colorscheme (for Colorschemer)
 
 ---

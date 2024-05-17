@@ -1,28 +1,28 @@
 {
-  "name": "everblush",
-  "displayName": "everblush",
-  "description": "A Dark, Vibrant and Beatiful colorscheme for Visual Studio Code.",
-  "version": "0.0.1",
-  "scripts": {
-    "build": "npx vsce package"
-  },
-  "engines": {
-    "vscode": "^1.89.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Everblush Theme",
-        "uiTheme": "vs-dark",
-        "path": "./themes/everblush-color-theme.json"
-      }
-    ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Zylo23/Everblush/tree/main/vscode"
-  }
+	"name": "everblush",
+	"displayName": "everblush",
+	"description": "A Dark, Vibrant and Beatiful colorscheme for Visual Studio Code.",
+	"version": "0.0.1",
+	"scripts": {
+		"build": "npx vsce package"
+	},
+	"engines": {
+		"vscode": "^1.89.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Everblush Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/everblush-color-theme.json"
+			}
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Zylo23/Everblush/tree/main/vscode"
+	}
 }

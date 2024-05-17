@@ -1,8 +1,10 @@
 {
-  "overrides": [
-    {
-      "files": ["userstyles/**/*.css", "template/**/*.css"],
-      "options": { "parser": "less" }
-    }
-  ]
+	"tabWidth": 4,
+	"useTabs": true,
+	"overrides": [
+		{
+			"files": ["userstyles/**/*.css", "template/**/*.css"],
+			"options": { "parser": "less" }
+		}
+	]
 }
