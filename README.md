@@ -245,12 +245,15 @@
 </tr>
 </table></details>
 
-## 🖌 Userstyles
+## 🪵 Ports of Everblush
+
+Everblush is available for various apps and in various formats. Here are some of the ports of Everblush:
 
 <details open>
 <summary>💭 Development Tools</summary>
 
 - [GitHub](userstyles/styles/github)
+- [Visual Studio Code](vscode)
 
 </details>
 
@@ -282,5 +285,9 @@
 - [ChatGPT](userstyles/styles/chatgpt)
 
 </details>
+
+## ❤️ Credit
+
+- [Everblush](https://github.com/Everblush) - A Dark and Beautiful and Vibrant Colorscheme (for Colorschemer)
 
 ---
