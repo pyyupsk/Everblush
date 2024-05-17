@@ -1,0 +1,21 @@
+{
+  "name": "everblush",
+  "displayName": "everblush",
+  "description": "A Dark, Vibrant and Beatiful colorscheme for Visual Studio Code.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Everblush Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Everblush Theme-color-theme.json"
+      }
+    ]
+  }
+}
