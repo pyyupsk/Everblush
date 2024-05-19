@@ -1,0 +1,115 @@
+/* ==UserStyle==
+@name Discord - Everblush
+@namespace github.com/Zylo23/Everblush/userstyles/styles/discord
+@homepageURL https://github.com/Zylo23/Everblush/tree/main/userstyles/styles/discord
+@version 0.0.1
+@updateURL https://github.com/Zylo23/Everblush/raw/main/userstyles/styles/discord/everblush.user.css
+@supportURL https://github.com/Zylo23/Everblush/issues?q=is%3Aopen+is%3Aissue+label%3Agithub
+@description A dark, vibrant, and beautiful color scheme for Discord
+@author Zylo23
+@license MIT
+==/UserStyle== */
+@-moz-document regexp("https?://(canary\\.|ptb\\.|)discord.com/.*")
+{
+	@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css");
+	@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css");
+	@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css");
+	@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+
+	:root {
+		--glasscord-win-blur: blurbehind;
+		--glasscord-win-performance-mode: true;
+
+		/* Discord Recolor */
+		--settingsicons: 1;
+
+		--accentcolor: 103, 176, 232;
+		--accentcolor2: 103, 176, 232;
+		--linkcolor: 103, 176, 232;
+		--mentioncolor: 103, 176, 232;
+		--successcolor: 140, 207, 126;
+		--warningcolor: 214, 138, 96;
+		--dangercolor: 229, 116, 116;
+
+		--textbrightest: 218, 218, 218;
+		--textbrighter: 218, 218, 218;
+		--textbright: 179, 185, 184;
+		--textdark: 179, 185, 184;
+		--textdarker: 161, 167, 166;
+		--textdarkest: 161, 167, 166;
+
+		--backgroundaccent: 35, 42, 45;
+		--backgroundprimary: 20, 27, 30;
+		--backgroundsecondary: 15, 21, 24;
+		--backgroundsecondaryalt: 15, 21, 24;
+		--backgroundtertiary: 10, 15, 17;
+		--backgroundfloating: 10, 15, 17;
+
+		/* Settings Modal */
+		--settingswidth: 1440;
+		--settingsheight: 80;
+		--settingsbackground: transparent;
+
+		/* Custom Variables */
+		--rosewater: #f2d3d3;
+		--flamingo: #f4a2a2;
+		--pink: #d58ac5;
+		--mauve: #ac7bd9;
+		--red: #e57474;
+		--maroon: #c15d5d;
+		--peach: #d68a60;
+		--yellow: #e5c76b;
+		--green: #8ccf7e;
+		--teal: #6cbf99;
+		--sky: #78c5d6;
+		--sapphire: #5aa0d8;
+		--blue: #67b0e8;
+		--lavender: #9a81d5;
+
+		--text: #dadada;
+		--subtext1: #b3b9b8;
+		--subtext0: #a1a7a6;
+
+		--overlay2: #5c6268;
+		--overlay1: #4b5157;
+		--overlay0: #3a4045;
+
+		--surface2: #31363a;
+		--surface1: #292e32;
+		--surface0: #232a2d;
+
+		--base: #141b1e;
+		--mantle: #0f1518;
+		--crust: #0a0f11;
+
+		--rs-small-spacing: 2px;
+		--rs-medium-spacing: 3px;
+		--rs-large-spacing: 4px;
+		--rs-small-width: 2px;
+		--rs-medium-width: 3px;
+		--rs-large-width: 4px;
+		--rs-avatar-shape: 50%;
+		--rs-online-color: #8ccf7e;
+		--rs-idle-color: #e5c76b;
+		--rs-dnd-color: #e57474;
+		--rs-offline-color: #4b5157;
+		--rs-streaming-color: #ac7bd9;
+		--rs-invisible-color: #5c6268;
+		--rs-self-speaking-color: #6cbf99;
+		--rs-phone-color: var(--rs-online-color);
+		--rs-phone-visible: block;
+	}
+
+	body {
+		background-color: var(--base);
+	}
+
+	::-webkit-input-placeholder,
+	body,
+	button,
+	input,
+	select,
+	textarea {
+		font-size: smaller;
+	}
+}
