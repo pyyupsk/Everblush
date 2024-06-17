@@ -1,12 +1,12 @@
 /* ==UserStyle==
 @name Discord - Everblush
-@namespace github.com/Zylo23/Everblush/userstyles/styles/discord
-@homepageURL https://github.com/Zylo23/Everblush/tree/main/userstyles/styles/discord
+@namespace github.com/pyyupsk/Everblush/userstyles/styles/discord
+@homepageURL https://github.com/pyyupsk/Everblush/tree/main/userstyles/styles/discord
 @version 0.0.1
-@updateURL https://github.com/Zylo23/Everblush/raw/main/userstyles/styles/discord/everblush.user.css
-@supportURL https://github.com/Zylo23/Everblush/issues?q=is%3Aopen+is%3Aissue+label%3Agithub
+@updateURL https://github.com/pyyupsk/Everblush/raw/main/userstyles/styles/discord/everblush.user.css
+@supportURL https://github.com/pyyupsk/Everblush/issues?q=is%3Aopen+is%3Aissue+label%3Agithub
 @description A dark, vibrant, and beautiful color scheme for Discord
-@author Zylo23
+@author pyyupsk
 @license MIT
 ==/UserStyle== */
 @-moz-document regexp("https?://(canary\\.|ptb\\.|)discord.com/.*")

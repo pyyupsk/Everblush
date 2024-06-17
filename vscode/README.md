@@ -16,7 +16,7 @@ To install you need to clone this repository to your computer and then run the f
 1. Clone this repository to your computer.
 
 ```bash
-git clone https://github.com/Zylo23/Everblush.git
+git clone https://github.com/pyyupsk/Everblush.git
 ```
 
 2. Navigate to the `vscode` directory.

@@ -9,7 +9,7 @@
 </h4>
 
 <div align="center">
-	<a href="https://github.com/Zylo23/Everblush/raw/main/userstyles/styles/stylus/everblush.user.css"><img src="https://img.shields.io/badge/stylus-install-6cbf99?colorA=232a2d&style=for-the-badge"></a>
+	<a href="https://github.com/pyyupsk/Everblush/raw/main/userstyles/styles/stylus/everblush.user.css"><img src="https://img.shields.io/badge/stylus-install-6cbf99?colorA=232a2d&style=for-the-badge"></a>
 </div>
 
 <p align="center">
