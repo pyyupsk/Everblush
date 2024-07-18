@@ -893,7 +893,12 @@
 			background-color: @crust !important;
 		}
 
-		.flex.h-full.flex-col.items-center.justify-center.text-token-text-primary > div > div > div > button > div {
+		.flex.h-full.flex-col.items-center.justify-center.text-token-text-primary
+			> div
+			> div
+			> div
+			> button
+			> div {
 			color: @subtext1;
 		}
 	}

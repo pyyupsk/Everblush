@@ -1,0 +1,233 @@
+/* ==UserStyle==
+@name Translate - Everblush
+@namespace github.com/pyyupsk/Everblush/userstyles/styles/translate
+@homepageURL https://github.com/pyyupsk/Everblush/tree/main/userstyles/styles/translate
+@version 0.0.1
+@updateURL https://github.com/pyyupsk/Everblush/raw/main/userstyles/styles/translate/everblush.user.css
+@supportURL https://github.com/pyyupsk/Everblush/issues?q=is%3Aopen+is%3Aissue+label%3Agithub
+@description A dark, vibrant, and beautiful color scheme for Translate
+@author pyyupsk
+@license MIT
+==/UserStyle== */
+@-moz-document url-prefix("https://translate.google.")
+{
+	:root {
+		/* Custom Variables */
+		--blue: #67b0e8;
+
+		--text: #dadada;
+		--subtext1: #b3b9b8;
+		--subtext0: #a1a7a6;
+
+		--overlay2: #5c6268;
+		--overlay1: #4b5157;
+		--overlay0: #3a4045;
+
+		--surface2: #31363a;
+		--surface1: #292e32;
+		--surface0: #232a2d;
+		--surface0-alpha: rgba(35, 42, 45, 0.5);
+
+		--base: #141b1e;
+		--mantle: #0f1518;
+		--crust: #0a0f11;
+	}
+
+	*,
+	::after,
+	::before {
+		border-color: var(--surface0);
+	}
+
+	body,
+	button,
+	input,
+	select,
+	textarea {
+		color: var(--text);
+	}
+
+	a {
+		color: var(--blue);
+	}
+
+	html {
+		background-color: var(--crust);
+	}
+
+	::placeholder {
+		color: var(--subtext0);
+	}
+
+	.zQTmif,
+	.SSPGKf,
+	.kXN2zb,
+	.BIdYQ {
+		background-color: var(--crust);
+	}
+
+	.gb_Rc,
+	.yFQBKb,
+	.bvzp8c,
+	.fMHXgc {
+		background-color: var(--base) !important;
+	}
+
+	.gb_id,
+	.gb_bd,
+	.gb_pd,
+	.gb_od,
+	.gb_hd,
+	.gb_7c,
+	.gb_8c,
+	.ccvoYb {
+		background-color: var(--crust);
+	}
+
+	.gb_ga,
+	.gb_8a,
+	.gb_Kd,
+	.gb_ed {
+		background-color: var(--surface0);
+	}
+
+	.gb_ga svg,
+	.gb_Lc svg,
+	.gb_7c .gb_fd,
+	.gb_Wc .gb_fd,
+	.gb_ga a,
+	.gb_Lc,
+	.er8xn,
+	.ryNqvb,
+	.JJYS0b:hover .VfPpkd-jY41G-V67aGc,
+	.ydsGXd {
+		color: var(--text);
+	}
+
+	.gb_Ec {
+		background-color: var(--crust);
+		border: 1px solid var(--surface0);
+	}
+
+	.yJWPX:hover {
+		background-color: var(--surface0-alpha);
+	}
+
+	.rm1UF,
+	.QcsUad {
+		border: 2px solid var(--surface0);
+		background-color: var(--base);
+	}
+
+	.rrPCWc:not(:disabled),
+	.ZihNHd:not(:disabled),
+	.b08HRd:not(:disabled) {
+		color: var(--surface1);
+	}
+
+	.ySES5 {
+		background-color: var(--surface0);
+		border: 1px solid var(--surface0);
+	}
+
+	.cJ1Ndf,
+	.TcXXXb,
+	.TYVfy,
+	.Ose4Jf .VfPpkd-jY41G-V67aGc,
+	.xUPQqb,
+	.jq25U,
+	.qSb8Pe,
+	.qSb8Pe:not(.KKjvXb) .qGfVtc {
+		color: var(--subtext0);
+	}
+
+	.X4DQ0::after,
+	.U0xwnf::after {
+		background: linear-gradient(
+			to right,
+			rgba(255, 255, 255, 0),
+			var(--crust)
+		);
+	}
+
+	.Ose4Jf.VfPpkd-AznF2e-OWXEXe-auswjd .VfPpkd-jY41G-V67aGc,
+	.X2ZoU.X2ZoU,
+	.MxWhHf.MxWhHf,
+	.GyPTPe.GyPTPe,
+	.Ft4sJe.Ft4sJe,
+	.Rj2Mlf:hover:not(:disabled),
+	.mvqA2c,
+	.NneTPd,
+	.ODAbH,
+	.RjBwkb {
+		color: var(--blue);
+	}
+
+	.PRdtG .VfPpkd-AznF2e-wEcVzc-OWXEXe-NowJzb,
+	.PRdtG .VfPpkd-AznF2e-wEcVzc-OWXEXe-NowJzb:hover,
+	.JJYS0b:hover .VfPpkd-AznF2e-wEcVzc-OWXEXe-NowJzb,
+	.Ose4Jf.VfPpkd-AznF2e-OWXEXe-auswjd .VfPpkd-YVzG2b::before,
+	.Ose4Jf.VfPpkd-AznF2e-OWXEXe-auswjd .VfPpkd-YVzG2b::after {
+		background-color: var(--blue);
+		border-color: var(--blue);
+	}
+
+	.KjuTac {
+		background: var(--base);
+		box-shadow: 0 1px 1px 0 var(--surface0-alpha);
+		margin-top: 8px;
+		outline: 1px solid var(--surface0);
+	}
+
+	.Bcbxbe,
+	.fMHXgc {
+		border-bottom: 1px solid var(--surface0);
+	}
+
+	.uNr6ee,
+	.toZopb,
+	.dWI6ed {
+		color: var(--subtext1) !important;
+	}
+
+	.U8K5nb {
+		background: var(--surface0);
+		color: var(--subtext1);
+	}
+
+	.hX7wnb {
+		background-color: var(--base);
+		border-top: 2px solid var(--surface0);
+	}
+
+	.GAyS9e {
+		background: linear-gradient(
+			to right,
+			rgba(255, 255, 255, 0),
+			var(--base)
+		);
+	}
+
+	.bvzp8c.Tht3fc,
+	.bvzp8c.DlHcnf {
+		border-color: var(--surface0);
+	}
+
+	.qSb8Pe:hover {
+		background-color: var(--surface0-alpha);
+	}
+
+	.qSb8Pe.KKjvXb {
+		background-color: var(--surface0-alpha);
+		color: var(--blue);
+	}
+
+	.ita-ppe-box {
+		background-color: var(--base);
+		color: var(--text);
+		border: 1px solid var(--surface0);
+		-webkit-box-shadow: 0 4px 16px var(--surface0-alpha);
+		-moz-box-shadow: 0 4px 16px var(--surface0-alpha);
+		box-shadow: 0 4px 16px var(--surface0-alpha);
+	}
+}
